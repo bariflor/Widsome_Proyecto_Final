@@ -1,6 +1,3 @@
-* {
-  outline: 1px solid red; }
-
 body {
   margin: 0;
   padding: 0; }
@@ -119,22 +116,58 @@ body {
 /*=============================================
 =            Section #9 Header            =
 =============================================*/
+#portafolio {
+  padding: 100px;
+  height: auto;
+  color: black; }
+  #portafolio img {
+    width: 285px; }
+
 /*=============================================
 =            Section #10 Header            =
 =============================================*/
-#carouselExampleSlidesOnly {
-  height: 700px;
-  background: #ff9900; }
+#testimonials {
+  text-align: center;
+  height: 500px;
+  background: #F9BC19; }
+  #testimonials h1 {
+    padding: 60px; }
+  #testimonials img {
+    border-radius: 50%; }
 
 /*=============================================
 =            Section #11 Header            =
 =============================================*/
+#latest-from {
+  height: 1000px;
+  color: black; }
+  #latest-from h1 {
+    padding: 60px; }
+  #latest-from img {
+    width: 285px; }
+
 /*=============================================
 =            Section #12 Header            =
 =============================================*/
+#carousel-3 {
+  background: #F9BC19;
+  height: 300px; }
+
+div #carouselExampleSlidesOnly {
+  position: relative;
+  top: 90px; }
+
 /*=============================================
 =            Section #13 Header            =
 =============================================*/
+#contact-us {
+  height: 700px; }
+  #contact-us h1 {
+    padding: 40px; }
+  #contact-us li {
+    list-style: none;
+    border-bottom: 2px solid white; }
+
 /*=============================================
 =            Section #14 Header            =
 =============================================*/

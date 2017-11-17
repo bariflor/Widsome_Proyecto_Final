@@ -1,9 +1,10 @@
 *{
-	outline: 1px solid red;
+	// outline: 1px solid red;
 }
 body{
     margin:0;
     padding:0;
+    // background: orange;
 }
 .ir-arriba {
     z-index: 10;
@@ -145,30 +146,70 @@ body{
 /*=============================================
 =            Section #9 Header            =
 =============================================*/
-
+#portafolio{
+    padding: 100px;
+    height: auto;
+    color: black;
+    img{
+        width: 285px;
+    }
+}
 
 /*=============================================
 =            Section #10 Header            =
 =============================================*/
-#carouselExampleSlidesOnly{
-    height: 700px;
-    background: #ff9900;
+#testimonials{
+    text-align: center;
+    height: 500px;
+    background: #F9BC19;
+    h1{
+        padding: 60px;
+    }
+    img{
+        border-radius: 50%;
+    }
 }
 
 /*=============================================
 =            Section #11 Header            =
 =============================================*/
+#latest-from{
+    height: 1000px;
 
+    h1{
+        padding: 60px;
+    }
+    color: black;
+    img{
+        width: 285px;
+    }
+}
 
 /*=============================================
 =            Section #12 Header            =
 =============================================*/
-
+#carousel-3{
+    background: #F9BC19;
+    height: 300px;
+}
+div #carouselExampleSlidesOnly {
+    position: relative;
+    top: 90px;
+}
 
 /*=============================================
 =            Section #13 Header            =
 =============================================*/
-
+#contact-us{
+    height: 700px;
+    h1{
+        padding: 40px;
+    }
+    li{
+        list-style:none;
+        border-bottom: 2px solid white;
+    }
+}
 
 /*=============================================
 =            Section #14 Header            =
