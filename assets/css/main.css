@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid red; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -21,19 +24,28 @@ body {
 =            Section #2 cont-1            =
 =============================================*/
 #about-me {
-  height: 700px; }
+  height: 700px;
+  position: relative;
+  top: 60px; }
+  #about-me h1 {
+    text-align: center; }
 
 /*=============================================
 =            Section #3 Header            =
 =============================================*/
 #welcome {
-  height: 300px; }
+  height: 300px;
+  text-align: center; }
+  #welcome h1 {
+    padding: 40px; }
+  #welcome p {
+    padding: 20px; }
 
 .parallax {
   /* The image used */
   background-image: url(https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/10/interior-2591367_1920.jpg);
   /* Set a specific height */
-  height: 500px;
+  height: 400px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -44,11 +56,36 @@ body {
 =            Section #4 Header            =
 =============================================*/
 /*=============================================
-=            Section #5 Header            =
+=            Section #5 our-services        =
 =============================================*/
+#our-services {
+  height: 700px;
+  padding: 30px; }
+  #our-services .row {
+    padding: 30px; }
+    #our-services .row h1 {
+      padding: 20px; }
+  #our-services .icon-soporte, #our-services .icon-texto, #our-services .icon-tablet, #our-services .icon-wordpress, #our-services .icon-optimizacion, #our-services .icon-phone {
+    font-size: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: #f88c00;
+    padding: 10px; }
+
 /*=============================================
 =            Section #6 Header            =
 =============================================*/
+#parallax-2 {
+  color: white;
+  padding: 40px; }
+  #parallax-2 h1 {
+    font-size: 80px; }
+  #parallax-2 p {
+    font-size: 40px; }
+  #parallax-2 .icon-folder, #parallax-2 .icon-clock, #parallax-2 .icon-people, #parallax-2 .icon-trofeo {
+    font-size: 50px;
+    padding: 10px; }
+
 /*=============================================
 =            Section #7 Header            =
 =============================================*/

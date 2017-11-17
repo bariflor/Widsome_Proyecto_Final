@@ -1,5 +1,5 @@
 *{
-	// outline: 1px solid red;
+	outline: 1px solid red;
 }
 body{
     margin:0;
@@ -28,6 +28,9 @@ body{
 =============================================*/
 #about-me{
 	height: 700px;
+    position: relative;
+    top: 60px;
+    h1{text-align: center;}
 }
 
 /*=============================================
@@ -35,12 +38,19 @@ body{
 =============================================*/
 #welcome{
    height: 300px;
+   text-align: center;
+   h1{
+    padding: 40px;
+   }
+   p{
+    padding: 20px;
+   }
 }
 .parallax { 
     /* The image used */
     background-image:url(https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/10/interior-2591367_1920.jpg);
     /* Set a specific height */
-    height: 500px; 
+    height: 400px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -56,14 +66,43 @@ body{
 
 
 /*=============================================
-=            Section #5 Header            =
+=            Section #5 our-services        =
 =============================================*/
-
+#our-services{
+    height: 700px;
+    padding: 30px;
+    .row{
+      padding: 30px;
+      h1{
+        padding: 20px;
+      }
+    }
+    .icon-soporte, .icon-texto, .icon-tablet, .icon-wordpress, .icon-optimizacion, .icon-phone {
+      font-size: 30px;
+      border-radius: 50%;
+      color: white;
+      background-color:#f88c00;
+      padding: 10px;
+    }
+}
 
 /*=============================================
 =            Section #6 Header            =
 =============================================*/
-
+#parallax-2 {
+    color: white;
+    padding: 40px;
+    h1{
+        font-size: 80px;
+    }
+    p{
+        font-size: 40px;
+    }
+    .icon-folder, .icon-clock, .icon-people, .icon-trofeo{
+        font-size: 50px;
+        padding: 10px;
+    }
+}
 
 /*=============================================
 =            Section #7 Header            =
