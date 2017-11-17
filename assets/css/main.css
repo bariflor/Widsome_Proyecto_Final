@@ -89,9 +89,33 @@ body {
 /*=============================================
 =            Section #7 Header            =
 =============================================*/
+#our-team {
+  padding: 30px;
+  height: 700px; }
+  #our-team h1 {
+    text-align: center; }
+  #our-team img {
+    width: 285px; }
+  #our-team .icon-facebook, #our-team .icon-twitter, #our-team .icon-linkedin, #our-team .icon-youtube, #our-team .icon-pinterest {
+    font-size: 20px;
+    padding: 8px;
+    background-color: #787878; }
+  #our-team .naranja {
+    color: orange; }
+
 /*=============================================
 =            Section #8 Header            =
 =============================================*/
+#what-else-we {
+  height: 600px;
+  padding: 30px;
+  color: white;
+  background: #ff9900; }
+  #what-else-we h1 {
+    text-align: center; }
+  #what-else-we .icon-tablet, #what-else-we .icon-sound-mix, #what-else-we .icon-texto, #what-else-we .icon-phone {
+    font-size: 50px; }
+
 /*=============================================
 =            Section #9 Header            =
 =============================================*/
