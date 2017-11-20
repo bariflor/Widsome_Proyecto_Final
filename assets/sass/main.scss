@@ -85,13 +85,9 @@ body{
    }
 }
 .parallax { 
-    /* The image used */
     background-image:url(https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/10/interior-2591367_1920.jpg);
-    /* Set a specific height */
     height: 400px; 
     color: white;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -269,5 +265,4 @@ div #carouselExampleSlidesOnly {
 #footer-2{
      background: #000000;
      height: 50px;
-
 }
