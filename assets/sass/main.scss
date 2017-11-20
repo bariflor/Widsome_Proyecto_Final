@@ -6,7 +6,7 @@ body{
     padding:0;
     // background: orange;
 }
-.ir-arriba {
+#ir-arriba {
     z-index: 10;
     display: inline-block;
     padding:20px;
@@ -19,20 +19,57 @@ body{
     right:20px;
 }
 
+
+
 /*=============================================
 =            Section #1 Header            =
 =============================================*/
-
-
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: transparent !important;
+    z-index: 10;
+    transition: all 1s ease;
+    h1{
+        color: white;
+    }
+    
+}
+        
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    padding: 10px;
+    font-size: 18px;
+    width: 120px;
+}
+#carrusel-1{
+    img{
+        background-color: rgba(0,0,0,10) !important;
+        -webkit-filter: contrast(10%);
+        filter: contrast(90%);
+    }
+    width: 100%;
+    height: 800px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto;
+    margin-left: auto;
+    h1{
+        font-size: 48px !important;
+    }
+}
 /*=============================================
 =            Section #2 cont-1            =
 =============================================*/
 #about-me{
 	height: 700px;
-    position: relative;
-    top: 60px;
+    // position: relative;
+    // top: 30px;
+    opacity: 0.7 !important;
     h1{text-align: center;}
 }
+
 
 /*=============================================
 =            Section #3 Header            =
@@ -52,14 +89,16 @@ body{
     background-image:url(https://promenadethemes.com/demo/winsome/onepage/wp-content/uploads/sites/2/2017/10/interior-2591367_1920.jpg);
     /* Set a specific height */
     height: 400px; 
+    color: white;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-filter: contrast(10%);
+    filter: contrast(90%);
 }
-
 
 /*=============================================
 =            Section #4 Header            =
@@ -160,10 +199,10 @@ body{
 =============================================*/
 #testimonials{
     text-align: center;
-    height: 500px;
+    height: 580px;
     background: #F9BC19;
     h1{
-        padding: 60px;
+        padding: 20px;
     }
     img{
         border-radius: 50%;
@@ -217,6 +256,10 @@ div #carouselExampleSlidesOnly {
 #footer-1{
      background: #121212;
      height: 320px;
+     ul{
+        list-style:none;
+        font-size: 14
+    }
 }
 
 /*=============================================
@@ -226,4 +269,5 @@ div #carouselExampleSlidesOnly {
 #footer-2{
      background: #000000;
      height: 50px;
+
 }
