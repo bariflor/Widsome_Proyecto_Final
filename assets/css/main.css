@@ -81,6 +81,9 @@ body {
 /*=============================================
 =            Section #4 Header            =
 =============================================*/
+.welcome .row {
+  background-color: rgba(136, 136, 136, 0.5); }
+
 /*=============================================
 =            Section #5 our-services        =
 =============================================*/
@@ -191,6 +194,8 @@ div #carouselExampleSlidesOnly {
 =============================================*/
 #contact-us {
   height: 700px; }
+  #contact-us .row {
+    background-color: rgba(136, 136, 136, 0.5); }
   #contact-us h1 {
     padding: 40px; }
   #contact-us li {
